@@ -14,6 +14,11 @@
 		0BF28FC125E695E6006B67D2 /* projet_ios2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BF28FBF25E695E6006B67D2 /* projet_ios2.xcdatamodeld */; };
 		0BF28FC325E695F0006B67D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF28FC225E695F0006B67D2 /* Assets.xcassets */; };
 		0BF28FC625E695F0006B67D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF28FC425E695F0006B67D2 /* LaunchScreen.storyboard */; };
+		0BF28FCF25E6ACF0006B67D2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF28FCE25E6ACF0006B67D2 /* NetworkManager.swift */; };
+		0BF28FD625E6AD5C006B67D2 /* PaginatedElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF28FD325E6AD5B006B67D2 /* PaginatedElements.swift */; };
+		0BF28FD725E6AD5C006B67D2 /* SerieCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF28FD425E6AD5C006B67D2 /* SerieCharacter.swift */; };
+		0BF28FD825E6AD5C006B67D2 /* PaginationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF28FD525E6AD5C006B67D2 /* PaginationInformation.swift */; };
+		0BF28FDB25E6AD81006B67D2 /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF28FDA25E6AD81006B67D2 /* UIImageView+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		0BF28FC225E695F0006B67D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF28FC525E695F0006B67D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BF28FC725E695F0006B67D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF28FCE25E6ACF0006B67D2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0BF28FD325E6AD5B006B67D2 /* PaginatedElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedElements.swift; sourceTree = "<group>"; };
+		0BF28FD425E6AD5C006B67D2 /* SerieCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerieCharacter.swift; sourceTree = "<group>"; };
+		0BF28FD525E6AD5C006B67D2 /* PaginationInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationInformation.swift; sourceTree = "<group>"; };
+		0BF28FDA25E6AD81006B67D2 /* UIImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,10 @@
 		0BF28FB525E695E6006B67D2 /* projet-ios2 */ = {
 			isa = PBXGroup;
 			children = (
+				0BF28FDA25E6AD81006B67D2 /* UIImageView+Additions.swift */,
+				0BF28FD225E6AD45006B67D2 /* class */,
 				0BF28FB625E695E6006B67D2 /* AppDelegate.swift */,
+				0BF28FCE25E6ACF0006B67D2 /* NetworkManager.swift */,
 				0BF28FB825E695E6006B67D2 /* SceneDelegate.swift */,
 				0BF28FBA25E695E6006B67D2 /* ViewController.swift */,
 				0BF28FBC25E695E6006B67D2 /* Main.storyboard */,
@@ -68,6 +81,16 @@
 				0BF28FBF25E695E6006B67D2 /* projet_ios2.xcdatamodeld */,
 			);
 			path = "projet-ios2";
+			sourceTree = "<group>";
+		};
+		0BF28FD225E6AD45006B67D2 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				0BF28FD325E6AD5B006B67D2 /* PaginatedElements.swift */,
+				0BF28FD525E6AD5C006B67D2 /* PaginationInformation.swift */,
+				0BF28FD425E6AD5C006B67D2 /* SerieCharacter.swift */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BF28FC125E695E6006B67D2 /* projet_ios2.xcdatamodeld in Sources */,
+				0BF28FD725E6AD5C006B67D2 /* SerieCharacter.swift in Sources */,
 				0BF28FBB25E695E6006B67D2 /* ViewController.swift in Sources */,
+				0BF28FD625E6AD5C006B67D2 /* PaginatedElements.swift in Sources */,
 				0BF28FB725E695E6006B67D2 /* AppDelegate.swift in Sources */,
+				0BF28FCF25E6ACF0006B67D2 /* NetworkManager.swift in Sources */,
+				0BF28FD825E6AD5C006B67D2 /* PaginationInformation.swift in Sources */,
+				0BF28FDB25E6AD81006B67D2 /* UIImageView+Additions.swift in Sources */,
 				0BF28FB925E695E6006B67D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
